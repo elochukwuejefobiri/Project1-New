@@ -25,11 +25,12 @@ What does Filebeat watch for?
 Filebeat watches for any information that has been changed and when the change occurred.
 What does Metricbeat record?
 Metricbeat monitors at a less granular level, analyzing log data at a specific moment in time.
-Name        | Function     | IP Address | Operating System 
-Jump Box | Gateway     |    10.0.0.4   | Linux            
-Web1      |     Server          10.0.0.5     Linux  
-Web2      |      Server         10.0.0.6     Linux
-elkVM    |      Server         10.1.0.4     Linux
+|Name        | Function     | IP Address | Operating System |
+|------------|--------------|------------|------------------|
+|Jump Box    | Gateway      |  10.0.0.4  | Linux            |
+|Web1        | Server       |  10.0.0.5  | Linux            |
+|Web2        | Server       |  10.0.0.6  | Linux            |
+|elkVM       | Server       |  10.1.0.4  | Linux            |
 
 Access Policies
 The machines on the internal network are not exposed to the public Internet. 
@@ -40,11 +41,12 @@ Machines within the network can only be accessed by JumpBoxProvisioner 10.0.0.4.
 Which machine did you allow to access your ELK VM? What was its IP address?
 136.57.177.79 via port 5601.
 A summary of the access policies in place can be found in the table below.
-Name       | Publicly Accessible | Allowed IP Addresses 
-Jump Box| Yes                           |   10.0.0.4                      
-Web1       |  No                           |   10.0.0.5                      
-Web2       |  No                           |   10.0.0.6             
-elkVM     |  Yes                          |   10.1.0.4, 136.57.177.79         
+|Name       | Publicly Accessible | Allowed IP Addresses     |
+|-----------|---------------------|--------------------------|
+|Jump Box   | Yes                 |   10.0.0.4               |           
+|Web1       | No                  |   10.0.0.5               |           
+|Web2       | No                  |   10.0.0.6               |  
+|elkVM      | Yes                 |   10.1.0.4, 136.57.177.79|         
 
 
 
