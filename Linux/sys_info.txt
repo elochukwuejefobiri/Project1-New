@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Information"
+echo "Today's date is October 13th 2021"
+echo "Machine Type"
+echo "$MACHTYPE"
+echo "IPaddress=hostname -I
